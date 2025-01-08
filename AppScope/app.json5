@@ -1,10 +1,10 @@
 {
   "app": {
-    "bundleName": "com.huawei.ohos.diceapp",
-    "vendor": "example",
+    "bundleName": "com.example.diceapp",
+    "vendor": "Michal",
     "versionCode": 1000000,
     "versionName": "1.0.0",
-    "icon": "$media:app_icon",
+    "icon": "$media:icon_dice",
     "label": "$string:app_name"
   }
 }

@@ -4,13 +4,13 @@
       {
         "name": "default",
         "material": {
-          "certpath": "C:/Users/m00872059/.ohos/config/openharmony/default_dice2_ypYYwtUGw-L8i6iIXrFzZYEphF2Sf5yelUI9xewVf2k=.cer",
-          "storePassword": "0000001A894FEC349D7CE454B53BC65A93C83EE36DB83AE1B64262BA516BE4000E2284947A539C312154",
+          "certpath": "C:/Users/c84381641/.ohos/config/openharmony/default_app-ThrowTheDice_a6Y6I12Yj9F7qe0hPNV-HF83NrrisBaqlXSlvfi5yV8=.cer",
+          "storePassword": "00000019EBB8DCC6D41CD9B4B0F657F2E9F6D5C478441B0205B8FBF2CFA376D6D18ADFCC39334B5C8D",
           "keyAlias": "debugKey",
-          "keyPassword": "0000001A79CA335610874D7064167CBA1F12F24BF7DF5EB6C916FBFB657D48CBD02E08CC131A51535A7B",
-          "profile": "C:/Users/m00872059/.ohos/config/openharmony/default_dice2_ypYYwtUGw-L8i6iIXrFzZYEphF2Sf5yelUI9xewVf2k=.p7b",
+          "keyPassword": "00000019EC48A19FC9DC0340A810AFB15A9A8AADCF60FF0A8A0A25063B187027CE2585A545370BB103",
+          "profile": "C:/Users/c84381641/.ohos/config/openharmony/default_app-ThrowTheDice_a6Y6I12Yj9F7qe0hPNV-HF83NrrisBaqlXSlvfi5yV8=.p7b",
           "signAlg": "SHA256withECDSA",
-          "storeFile": "C:/Users/m00872059/.ohos/config/openharmony/default_dice2_ypYYwtUGw-L8i6iIXrFzZYEphF2Sf5yelUI9xewVf2k=.p12"
+          "storeFile": "C:/Users/c84381641/.ohos/config/openharmony/default_app-ThrowTheDice_a6Y6I12Yj9F7qe0hPNV-HF83NrrisBaqlXSlvfi5yV8=.p12"
         }
       }
     ],
@@ -18,8 +18,8 @@
       {
         "name": "default",
         "signingConfig": "default",
-        "compileSdkVersion": 10,
-        "compatibleSdkVersion": 9,
+        "compileSdkVersion": 11,
+        "compatibleSdkVersion": 11,
         "runtimeOS": "OpenHarmony",
       }
     ],
