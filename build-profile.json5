@@ -4,13 +4,13 @@
       {
         "name": "default",
         "material": {
-          "certpath": "C:/Users/c84381641/.ohos/config/openharmony/default_app-ThrowTheDice_a6Y6I12Yj9F7qe0hPNV-HF83NrrisBaqlXSlvfi5yV8=.cer",
-          "storePassword": "00000019EBB8DCC6D41CD9B4B0F657F2E9F6D5C478441B0205B8FBF2CFA376D6D18ADFCC39334B5C8D",
+          "certpath": "./.secret/oniro-ci.cer",
+          "storePassword": "0000001BD5A16C997F0EF958596A946A060A50ED61DF4D945A74AB3C462CBCFBE5BA90427A3DEAC0D27D3E",
           "keyAlias": "debugKey",
-          "keyPassword": "00000019EC48A19FC9DC0340A810AFB15A9A8AADCF60FF0A8A0A25063B187027CE2585A545370BB103",
-          "profile": "C:/Users/c84381641/.ohos/config/openharmony/default_app-ThrowTheDice_a6Y6I12Yj9F7qe0hPNV-HF83NrrisBaqlXSlvfi5yV8=.p7b",
+          "keyPassword": "0000001BACA49D623B16BE8A9C4C216A9ED64244F7255BC9AEF8C862264DDA900496AD36202857353771E8",
+          "profile": "./.secret/oniro-ci.p7b",
           "signAlg": "SHA256withECDSA",
-          "storeFile": "C:/Users/c84381641/.ohos/config/openharmony/default_app-ThrowTheDice_a6Y6I12Yj9F7qe0hPNV-HF83NrrisBaqlXSlvfi5yV8=.p12"
+          "storeFile": "./.secret/oniro-ci.p12"
         }
       }
     ],
