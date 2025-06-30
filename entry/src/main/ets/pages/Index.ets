@@ -5,16 +5,13 @@ import GridItemComponent from '../view/GridItemComponent';
 /*import { router } from '@kit.ArkUI';*/
 import { DiceItem } from '../view/DiceItem';
 import { Dice } from '../model/Dice';
-import router from '@ohos.router';
 
 @Entry
 @Component
 struct Index {
   @State message: string = 'Choose dice';
-
   itemImage: Resource = $r('app.media.app_icon');
   idIndex: number = 0;
-
   @StorageLink("dice") currentDice: number = 0
 
   build() {
@@ -40,24 +37,21 @@ struct Index {
               index: item.index
 
 
-
             })
           }
 
           .onClick(() => {
             console.log("AAAAA")
             this.currentDice = item.index
-            router.pushUrl({
+            this.getUIContext().getRouter().pushUrl({
               url: 'pages/RollPage'
             })
           })
           .width('30%')
-
         })
-
-
       }
       .height('70%')
+
       Column() {
         Button('Roll', { type: ButtonType.Normal, stateEffect: true })
           .onClick(() => {
@@ -68,7 +62,6 @@ struct Index {
       .height('100%')
       .width('100%')
       .padding('10vp')
-
 
     }
   }

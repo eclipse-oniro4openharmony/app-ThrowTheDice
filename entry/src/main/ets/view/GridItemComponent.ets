@@ -2,7 +2,7 @@ import {Constants} from '../common/Constants';
 @Component
 export default struct GridItemComponent {
   itemName: string = '';
-  itemImage: Resource = $r('app.media.startIcon');
+  itemImage: Resource = $r('app.media.app_icon');
 
   build() {
 
