@@ -93,20 +93,7 @@
     ],
     "PROFILE_OPT": {
       "app": {
-        "signingConfigs": [
-          {
-            "name": "default",
-            "material": {
-              "certpath": "C:/Users/chens/.ohos/config/openharmony/default_app-ThrowTheDice_sku4Y1X_8Skj9Yq-8ZF9d7ffkXh67d_kZUFYq0y8TW8=.cer",
-              "keyAlias": "debugKey",
-              "keyPassword": "0000001AA4714BCBC54CCE87C665BAD93FD6AE7ACE263D27570ED66B13E6C3F28D9F0164A6DE55F4BD42",
-              "profile": "C:/Users/chens/.ohos/config/openharmony/default_app-ThrowTheDice_sku4Y1X_8Skj9Yq-8ZF9d7ffkXh67d_kZUFYq0y8TW8=.p7b",
-              "signAlg": "SHA256withECDSA",
-              "storeFile": "C:/Users/chens/.ohos/config/openharmony/default_app-ThrowTheDice_sku4Y1X_8Skj9Yq-8ZF9d7ffkXh67d_kZUFYq0y8TW8=.p12",
-              "storePassword": "0000001A1B5BC39E929E2ABD74BC430B225B83520150CD720142F43616B5C252647567DB151E25C7542C"
-            }
-          }
-        ],
+        "signingConfigs": [],
         "products": [
           {
             "name": "default",

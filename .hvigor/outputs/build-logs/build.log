@@ -1782,3 +1782,108 @@ at C:\Users\chens\RemoteProjects\app-ThrowTheDice\AppScope\resources\base\media\
 [2025-06-30T13:08:15.975] [DEBUG] debug-file - Update task entry:default@CollectDebugSymbol input file:C:\Users\chens\RemoteProjects\app-ThrowTheDice\entry\build\default\intermediates\libs\default cache by regenerate.
 [2025-06-30T13:08:15.975] [DEBUG] debug-file - Update task entry:default@CollectDebugSymbol output file:C:\Users\chens\RemoteProjects\app-ThrowTheDice\entry\build\default\outputs\default\symbol cache.
 [2025-06-30T13:08:15.975] [DEBUG] debug-file - Incremental task entry:default@CollectDebugSymbol post-execution cost:4 ms .
+[2025-11-06T14:27:05.959] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2025-11-06T14:27:06.028] [DEBUG] debug-file - env: daemon=true
+[2025-11-06T14:27:05.962] [DEBUG] debug-file - env: hvigor-config.json5 content = {
+  modelVersion: '5.0.2',
+  dependencies: {},
+  execution: {},
+  logging: {},
+  debugging: { stacktrace: true },
+  nodeOptions: {}
+}
+[2025-11-06T14:27:06.956] [DEBUG] debug-file - java daemon tryConnect success
+[2025-11-06T14:27:07.022] [DEBUG] debug-file - session manager: set active socket. socketId=orFP4ETFkWtweZtdAAAB
+[2025-11-06T14:27:08.047] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-11-06T14:27:08.061] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: true,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' },
+  optimizationStrategy: 'memory',
+  hotCompile: undefined,
+  hotReloadBuild: undefined
+}
+[2025-11-06T14:27:08.070] [DEBUG] debug-file - Since current hvigor version 6.0.6 differs from last hvigor version 
+      5.18.4, delete file-cache.json and task-cache.json.
+[2025-11-06T14:27:08.073] [DEBUG] debug-file - Cache service initialization finished in 12 ms 
+[2025-11-06T14:27:08.076] [DEBUG] debug-file - hvigorfile, resolving C:\Users\chens\RemoteProjects\app-ThrowTheDice\hvigorfile.ts
+[2025-11-06T14:27:10.346] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2025-11-06T14:27:10.346] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2025-11-06T14:27:10.567] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2025-11-06T14:27:10.567] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2025-11-06T14:27:10.568] [DEBUG] debug-file - Product 'default' build option initialized
+[2025-11-06T14:27:10.568] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2025-11-06T14:27:10.571] [DEBUG] debug-file - Obtain build option for product 'default'in this build.
+[2025-11-06T14:27:10.572] [DEBUG] debug-file - No signingConfig found, initRemoteHspCache failed.
+[2025-11-06T14:27:10.581] [DEBUG] debug-file - Start recording SDK configuration permission data.
+[2025-11-06T14:27:10.629] [DEBUG] debug-file - Sdk init in 55 ms 
+[2025-11-06T14:27:10.636] [DEBUG] debug-file - Project task initialization takes 5 ms 
+[2025-11-06T14:27:10.636] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2025-11-06T14:27:10.636] [DEBUG] debug-file - hvigorfile, no custom plugins were found in C:\Users\chens\RemoteProjects\app-ThrowTheDice\hvigorfile.ts
+[2025-11-06T14:27:10.636] [DEBUG] debug-file - hvigorfile, resolve finished C:\Users\chens\RemoteProjects\app-ThrowTheDice\hvigorfile.ts
+[2025-11-06T14:27:10.637] [DEBUG] debug-file - hvigorfile, resolving C:\Users\chens\RemoteProjects\app-ThrowTheDice\entry\hvigorfile.ts
+[2025-11-06T14:27:10.643] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2025-11-06T14:27:10.643] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2025-11-06T14:27:10.644] [DEBUG] debug-file - failed to load cangjie to dynamically generate schemas: Error: Cannot find module '@ohos/cangjie-build-support/index'
+Require stack:
+- C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\plugin\factory\plugin-factory.js
+- C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\index.js
+- C:\Users\chens\RemoteProjects\app-ThrowTheDice\hvigorfile.ts
+- C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\base\internal\lifecycle\configuration.js
+- C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\base\boot\index.js
+- C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\base\daemon\cluster\worker-process-lifecycle.js
+- C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\base\daemon\process\daemon-process-boot-script.js
+[2025-11-06T14:27:10.659] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2025-11-06T14:27:10.659] [DEBUG] debug-file - Target 'default' config initialized
+[2025-11-06T14:27:10.660] [DEBUG] debug-file - Module 'entry' target 'default' build option initialized
+[2025-11-06T14:27:10.660] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2025-11-06T14:27:10.660] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=release
+[2025-11-06T14:27:10.660] [DEBUG] debug-file - Target 'default' config initialized
+[2025-11-06T14:27:10.661] [DEBUG] debug-file - Module 'entry' target 'default' build option initialized
+[2025-11-06T14:27:10.661] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2025-11-06T14:27:10.661] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2025-11-06T14:27:10.661] [DEBUG] debug-file - Target 'default' config initialized
+[2025-11-06T14:27:10.662] [DEBUG] debug-file - Module 'entry' target 'default' build option initialized
+[2025-11-06T14:27:10.662] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2025-11-06T14:27:10.662] [DEBUG] debug-file - Obtain build option for module 'entry' target 'default'in this build.
+[2025-11-06T14:27:10.675] [DEBUG] debug-file - Module entry task initialization takes 11 ms 
+[2025-11-06T14:27:10.675] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2025-11-06T14:27:10.675] [DEBUG] debug-file - hvigorfile, no custom plugins were found in C:\Users\chens\RemoteProjects\app-ThrowTheDice\entry\hvigorfile.ts
+[2025-11-06T14:27:10.675] [DEBUG] debug-file - hvigorfile, resolve finished C:\Users\chens\RemoteProjects\app-ThrowTheDice\entry\hvigorfile.ts
+[2025-11-06T14:27:10.808] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 132 ms 
+[2025-11-06T14:27:10.809] [DEBUG] debug-file - project has submodules:entry
+[2025-11-06T14:27:10.818] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
+[2025-11-06T14:27:10.824] [DEBUG] debug-file - load to the disk finished
+[2025-11-06T14:27:10.826] [DEBUG] debug-file - Start to initialize dependency information.
+[2025-11-06T14:27:10.842] [DEBUG] debug-file - Module app-ThrowTheDice Collected Dependency: 
+[2025-11-06T14:27:10.842] [DEBUG] debug-file - Module app-ThrowTheDice's total dependency: 0
+[2025-11-06T14:27:10.843] [DEBUG] debug-file - Start to initialize dependency information.
+[2025-11-06T14:27:10.846] [DEBUG] debug-file - Module entry Collected Dependency: 
+[2025-11-06T14:27:10.847] [DEBUG] debug-file - Module entry's total dependency: 0
+[2025-11-06T14:27:10.851] [DEBUG] debug-file - Configuration phase cost:2 s 777 ms 
+[2025-11-06T14:27:10.854] [DEBUG] debug-file - Configuration task cost before running: 2 s 802 ms 
+[2025-11-06T14:27:10.854] [DEBUG] debug-file - Executing task :entry:clean
+[2025-11-06T14:27:10.855] [DEBUG] debug-file - clean: Worker pool is inactive.
+[2025-11-06T14:27:10.856] [DEBUG] debug-file - entry : clean cost memory 0.087493896484375
+[2025-11-06T14:27:10.860] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 808 ms 
+[2025-11-06T14:27:10.861] [INFO] debug-file - Finished :entry:clean... after 6 ms 
+[2025-11-06T14:27:10.861] [DEBUG] debug-file - Executing task ::clean
+[2025-11-06T14:27:10.861] [DEBUG] debug-file - clean: Worker pool is inactive.
+[2025-11-06T14:27:10.862] [DEBUG] debug-file - app-ThrowTheDice : clean cost memory 0.02790069580078125
+[2025-11-06T14:27:10.862] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 810 ms 
+[2025-11-06T14:27:10.862] [INFO] debug-file - Finished ::clean... after 1 ms 
+[2025-11-06T14:27:10.862] [DEBUG] debug-file - Executing task :entry:init
+[2025-11-06T14:27:10.863] [DEBUG] debug-file - entry : init cost memory 0.0164642333984375
+[2025-11-06T14:27:10.863] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 811 ms 
+[2025-11-06T14:27:10.863] [INFO] debug-file - Finished :entry:init... after 1 ms 
+[2025-11-06T14:27:10.864] [DEBUG] debug-file - Executing task ::init
+[2025-11-06T14:27:10.864] [DEBUG] debug-file - app-ThrowTheDice : init cost memory 0.0153045654296875
+[2025-11-06T14:27:10.864] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 812 ms 
+[2025-11-06T14:27:10.864] [INFO] debug-file - Finished ::init... after 1 ms 
+[2025-11-06T14:27:10.873] [DEBUG] debug-file - Obtain build option for module 'entry' target 'default'in this build.
+[2025-11-06T14:27:10.882] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-11-06T14:27:10.882] [DEBUG] debug-file - session manager: send message to worker process.
