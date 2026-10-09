@@ -1,6 +1,11 @@
 /node_modules
 /oh_modules
+/.hvigor
 /.preview
 /build
+/**/build
 /.cxx
 /.test
+/build-profile.json5
+/signatures/
+/.local-signing/

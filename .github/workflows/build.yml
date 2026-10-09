@@ -12,18 +12,27 @@ jobs:
   build:
     runs-on: oniro-runner
     container:
-      image: francescopham/oniro-builder:6.0
+      image: node:22-bookworm
     env:
       HOME: /root
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Install Java and Oniro tools
+        run: |
+          apt-get update
+          apt-get install -y --no-install-recommends openjdk-17-jdk-headless
+          npm install -g @oniroproject/oniro-app@0.10.0
+          oniro-app sdk install 6.1
+          oniro-app cmdtools install
+
       - name: Build and sign app
         run: |
           cd "$GITHUB_WORKSPACE"
-          onirobuilder sign
-          onirobuilder build
+          cp build-profile.example.json5 build-profile.json5
+          oniro-app sign
+          oniro-app build
 
       - name: Upload built HAP packages
         uses: actions/upload-artifact@v4

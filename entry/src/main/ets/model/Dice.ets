@@ -1,15 +1,9 @@
 export class Dice {
+  readonly sides: number;
+  readonly diceImage: Resource;
 
-
-  public  name: string = "kosc";
-  public  diceImage: Resource = $r('app.media.app_icon');
-  public  index: number = 0;
-
-
-  constructor(name: string, image: Resource, id: number) {
-    this.name = name;
-    this.diceImage = image;
-    this.index = id;
-
+  constructor(sides: number, diceImage: Resource) {
+    this.sides = sides;
+    this.diceImage = diceImage;
   }
 }
