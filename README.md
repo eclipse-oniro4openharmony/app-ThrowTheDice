@@ -10,6 +10,10 @@ An OpenHarmony example for choosing a tabletop die or coin and generating one re
 | Pass the selected die between pages | ArkUI `@StorageLink` and `@StorageProp` | [Index.ets](entry/src/main/ets/pages/Index.ets), [RollPage.ets](entry/src/main/ets/pages/RollPage.ets) |
 | Generate a value for the selected die or coin | `Math.random()` | [Random.ets](entry/src/main/ets/common/Random.ets), [RollPage.ets](entry/src/main/ets/pages/RollPage.ets) |
 
+## Preview
+
+![D6 result screen with the Roll again button](assets/preview.jpg)
+
 ## Requirements
 
 - Oniro SDK 6.1 (API 23), OpenHarmony command-line tools, `oniro-app` 0.10.0, Node.js, and Java. The [build workflow](.github/workflows/build.yml) uses Node.js 22 and Java 17.
