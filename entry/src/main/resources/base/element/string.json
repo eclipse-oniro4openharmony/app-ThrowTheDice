@@ -11,6 +11,46 @@
     {
       "name": "EntryAbility_label",
       "value": "Dice throw app"
+    },
+    {
+      "name": "choose_die",
+      "value": "Choose a die"
+    },
+    {
+      "name": "coin",
+      "value": "Coin"
+    },
+    {
+      "name": "coin_detail",
+      "value": "Heads or tails"
+    },
+    {
+      "name": "percentile_roll",
+      "value": "Percentile roll"
+    },
+    {
+      "name": "die_sides",
+      "value": "%s sides"
+    },
+    {
+      "name": "back",
+      "value": "Back"
+    },
+    {
+      "name": "result",
+      "value": "Result"
+    },
+    {
+      "name": "heads",
+      "value": "Heads"
+    },
+    {
+      "name": "tails",
+      "value": "Tails"
+    },
+    {
+      "name": "roll_again",
+      "value": "Roll again"
     }
   ]
 }

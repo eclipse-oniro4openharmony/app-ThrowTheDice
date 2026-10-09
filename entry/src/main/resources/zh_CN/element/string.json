@@ -10,7 +10,47 @@
     },
     {
       "name": "EntryAbility_label",
-      "value": "label"
+      "value": "掷骰子"
+    },
+    {
+      "name": "choose_die",
+      "value": "选择骰子"
+    },
+    {
+      "name": "coin",
+      "value": "硬币"
+    },
+    {
+      "name": "coin_detail",
+      "value": "正面或反面"
+    },
+    {
+      "name": "percentile_roll",
+      "value": "百分骰"
+    },
+    {
+      "name": "die_sides",
+      "value": "%s 面"
+    },
+    {
+      "name": "back",
+      "value": "返回"
+    },
+    {
+      "name": "result",
+      "value": "结果"
+    },
+    {
+      "name": "heads",
+      "value": "正面"
+    },
+    {
+      "name": "tails",
+      "value": "反面"
+    },
+    {
+      "name": "roll_again",
+      "value": "再掷一次"
     }
   ]
 }

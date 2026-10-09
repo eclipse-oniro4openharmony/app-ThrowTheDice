@@ -1,16 +1,14 @@
-import { Dice } from "./Dice";
+import { Dice } from './Dice';
 
 export class DiceData {
-  static storageName: string = "dice"
-  static diceTypeList: Dice[] = [
-  new Dice("Coin", $r('app.media.coin') ,2 ),
-  new Dice("K4", $r('app.media.d4'), 4),
-  new Dice("K6", $r('app.media.d6'), 6),
-  new Dice("K8", $r('app.media.d8'), 8),
-  new Dice("K10", $r('app.media.d10'), 10),
-  new Dice("K12", $r('app.media.d12'), 12),
-  new Dice("K20", $r('app.media.d20'), 20),
-  new Dice("K100", $r('app.media.d10'), 100)];
-
-
+  static readonly DICE_TYPE_LIST: Dice[] = [
+    new Dice(2, $r('app.media.coin')),
+    new Dice(4, $r('app.media.d4')),
+    new Dice(6, $r('app.media.d6')),
+    new Dice(8, $r('app.media.d8')),
+    new Dice(10, $r('app.media.d10')),
+    new Dice(12, $r('app.media.d12')),
+    new Dice(20, $r('app.media.d20')),
+    new Dice(100, $r('app.media.d100'))
+  ];
 }
